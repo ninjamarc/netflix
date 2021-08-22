@@ -1,0 +1,19 @@
+.search__row {
+    margin-left: 20px;
+    color: white;
+}
+
+.search__container {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.search__poster {
+    object-fit: contain;
+    width: 100%;
+    max-height: 300px;
+    transition: transform 450ms;
+    margin-right: 10px;
+}
